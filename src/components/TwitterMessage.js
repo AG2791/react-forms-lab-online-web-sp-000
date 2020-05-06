@@ -9,6 +9,7 @@ class TwitterMessage extends React.Component {
     };
   }
 
+handleChange
   render() {
     return (
       <div>
