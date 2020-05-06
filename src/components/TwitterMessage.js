@@ -21,7 +21,7 @@ handleChange = e => {
         <strong>Your message:</strong>
         <input type="text" name="message" id="message" value = {this.state.value} onChange ={this.handleChange}  />
                     {/* connecets state to message, when input changes call handleChange */}
-                    <P>
+                    <P> {this.props.maxChars-this.state.value.length}</p>
       </div>
     );
   }
