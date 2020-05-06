@@ -12,7 +12,7 @@ class TwitterMessage extends React.Component {
 handleChange = e => {
   this.setState({
     value: e.target.value
-    //target is the input element
+    //target is the input element value
   })
 }
   render() {
