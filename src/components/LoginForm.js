@@ -14,7 +14,7 @@ class LoginForm extends React.Component {
     const value = e.target.value;
     this.setState({
       [name]: value
-       name id from input
+      // name id from input
     })
   }
 
