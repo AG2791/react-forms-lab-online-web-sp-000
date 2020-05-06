@@ -4,12 +4,11 @@ class LoginForm extends React.Component {
   constructor() {
     super();
 
-    this.state = {
       this.state = {
         Username:'',
         Password:''
-      }
-    };
+      };
+    }
     handleChange = e => {}
     const name = e.target.name;
     const value = e.target.value;
